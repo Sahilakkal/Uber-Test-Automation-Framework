@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="UBERTESTCASE.HomepageTest1">
+        <methods>
+          <include name="Logo_visibilty"/>
+          <include name="helpbt"/>
+          <include name="lau"/>
+          <include name="charterbt"/>
+        </methods>
+      </class> <!-- UBERTESTCASE.HomepageTest1 -->
+      <class name="UBERTESTCASE.ProfileTest">
+        <methods>
+          <include name="Add_Email"/>
+          <include name="launch7"/>
+          <include name="phone"/>
+        </methods>
+      </class> <!-- UBERTESTCASE.ProfileTest -->
+      <class name="UBERTESTCASE.CharterTest">
+        <methods>
+          <include name="launch44"/>
+          <include name="AddStop"/>
+        </methods>
+      </class> <!-- UBERTESTCASE.CharterTest -->
+      <class name="UBERTESTCASE.TaxProfileTest">
+        <methods>
+          <include name="Pan_Check"/>
+          <include name="launch9"/>
+          <include name="StateEnter"/>
+        </methods>
+      </class> <!-- UBERTESTCASE.TaxProfileTest -->
+      <class name="UBERTESTCASE.Uberbusinesstest1">
+        <methods>
+          <include name="launch01"/>
+          <include name="close"/>
+          <include name="careers_ch"/>
+          <include name="Blog_ch"/>
+          <include name="wait1"/>
+        </methods>
+      </class> <!-- UBERTESTCASE.Uberbusinesstest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
